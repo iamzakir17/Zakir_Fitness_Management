@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Delete Product | Zakir Fitness Management</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="delete" data-title="Delete Product" data-sub="Remove discontinued equipment">
+<div id="content">
+<form class="card lk" id="lk"><label>Product ID<input id="lid" placeholder="e.g. SPT-101" autocomplete="off"></label><button class="btn" type="submit"><i class="fa-solid fa-magnifying-glass"></i> Find product</button></form>
+<section class="card pc danger" id="pv" hidden><h3>Product to delete</h3><div id="pvbody"></div>
+<div class="acts"><button class="btn red" id="del"><i class="fa-solid fa-trash"></i> Delete permanently</button></div></section>
+</div>
+<script src="js/app.js"></script>
+</body>
+</html>
